@@ -4,7 +4,7 @@ import "./App.css";
 const countdownTarget = new Date("2025-05-31T23:59:59").getTime();
 
 const leaderboardData = [
-  { place: 1, user: "Ludvig", wagered: "$1428.28", reward: "$65" },
+  { place: 1, user: "N/A", wagered: "$0", reward: "$65" },
   { place: 2, user: "N/A", wagered: "$0", reward: "$40" },
   { place: 3, user: "N/A", wagered: "$0", reward: "$25" },
   { place: 4, user: "N/A", wagered: "$0", reward: "$15" },
