@@ -1,25 +1,11 @@
-html, body {
+body {
   margin: 0;
   padding: 0;
-  background-color: #3E345C; /* Match your site's background */
+  background-color: #0f172a;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
 }
 
-/* Wrap the full React app container */
-#root {
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  max-width: 1100px;
-  margin: 40px auto;
-  background-color: #3E345C;
-}
-
-/* Internal leaderboard layout */
 .leaderboard-wrapper {
   padding: 40px 20px;
   max-width: 1000px;
@@ -35,7 +21,7 @@ html, body {
 }
 
 .subtitle {
-  color: #FFD700;
+  color: gold;
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
@@ -97,7 +83,7 @@ html, body {
 }
 
 .countdown {
-  background-color: #4B416A;
+  background-color: #1e293b;
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -107,7 +93,7 @@ html, body {
 }
 
 .remaining-players {
-  background-color: #4B416A;
+  background-color: #1e293b;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -119,17 +105,17 @@ html, body {
 }
 
 .table-header {
-  background-color: #5A4A75;
+  background-color: #334155;
   font-weight: bold;
-  border-bottom: 2px solid #6B5C8E;
+  border-bottom: 2px solid #475569;
 }
 
 .table-row {
-  border-top: 1px solid #5A4A75;
+  border-top: 1px solid #334155;
 }
 
 .table-row:hover {
-  background-color: #5D4C76;
+  background-color: #2c3848;
 }
 
 @keyframes fadeIn {
@@ -142,4 +128,3 @@ html, body {
     transform: translateY(0);
   }
 }
-
