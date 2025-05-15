@@ -4,11 +4,11 @@ import "./App.css";
 const countdownTarget = new Date("2025-05-31T23:59:59").getTime();
 
 const leaderboardData = [
-  { place: 1, user: "xG9••••••", wagered: "$1,943.60", reward: "$65" },
-  { place: 2, user: "FZ_•••••••", wagered: "$1,384.90", reward: "$40" },
-  { place: 3, user: "blu•••", wagered: "$1,011.25", reward: "$25" },
-  { place: 4, user: "yoK••••", wagered: "$624.00", reward: "$15" },
-  { place: 5, user: "tn8••••", wagered: "$435.10", reward: "$5" },
+  { place: 1, user: "spi******", wagered: "$5,254.88", reward: "$65" },
+  { place: 2, user: "val******", wagered: "$3,127.40", reward: "$40" },
+  { place: 3, user: "nor****", wagered: "$2,989.25", reward: "$25" },
+  { place: 4, user: "luc*********", wagered: "$2,065.10", reward: "$15" },
+  { place: 5, user: "bjk******", wagered: "$1,457.62", reward: "$5" },
 ];
 
 function getOrdinal(n) {
