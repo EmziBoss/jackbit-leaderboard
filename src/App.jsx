@@ -7,8 +7,8 @@ const leaderboardData = [
   { place: 1, user: "spi******", wagered: "$14,897.18", reward: "$65" },
   { place: 2, user: "val******", wagered: "$10,361.10", reward: "$40" },
   { place: 3, user: "nor****", wagered: "$5,989.25", reward: "$25" },
-  { place: 4, user: "bjk******", wagered: "$4,811.80", reward: "$15" },
-  { place: 5, user: "nik******", wagered: "$4,329.10", reward: "$5" },
+  { place: 4, user: "bjk******", wagered: "$5,101.20", reward: "$15" },
+  { place: 5, user: "elp******", wagered: "$4,697.45", reward: "$5" },
 ];
 
 function getOrdinal(n) {
